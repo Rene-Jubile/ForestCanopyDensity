@@ -22,7 +22,7 @@ La première étape dans notre analyse consiste à préparer nos données. Cela 
 ```{r setup, include=FALSE}
 library(raster)
 
-setwd("/home/rene/Documents/GitHub/forest_canopy_density")
+setwd("/home/rene/Documents/GitHub/ForestCanopyDensity")
 
 # get list of all tifs
 list.files("data/landsat/LC80340322016205-SC20170127160728/crop")

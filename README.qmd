@@ -1,7 +1,7 @@
 ---
 title: "Get Forest Canopy density"
 author: "MABILA N. René-Jubilé"
-format: markdown
+format: rmarkdown
 editor: visual
 ---
 
@@ -9,15 +9,11 @@ editor: visual
 
 ## Introduction
 
-```         
 Ce document vise à expliquer les étapes nécessaires pour calculer la densité du couvert forestier (FCD) en utilisant des données d'imagerie Landsat. Nous allons passer en revue la préparation des données, le calcul des indices de végétation et finalement, le calcul du FCD.
-```
 
 ## Preparation des données
 
-```         
 La première étape dans notre analyse consiste à préparer nos données. Cela inclut le chargement des données d'imagerie Landsat et la préparation de ces images pour l'analyse.
-```
 
 ```{r setup, include=FALSE}
 library(raster)
